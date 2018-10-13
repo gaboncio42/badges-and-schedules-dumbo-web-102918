@@ -17,7 +17,11 @@ def assign_rooms(array)
   return rooms
 end
 
-def printer
+def printer(array)
+  printed_lines = []
+  array.each_line(1) {|line| printed_lines.push
+  
+  
   
 
 

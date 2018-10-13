@@ -11,6 +11,6 @@ end
 def assign_rooms(array)
   rooms = []
   array.each_with_index {|name, index| rooms.push("Hello, #{name}! You'll be assigned to room #{index}!")}
-  
+  index : 1 for name
   return rooms
 end

@@ -19,7 +19,10 @@ end
 
 def printer(array)
   printed_lines = []
-  array.each_line(1) {|line| printed_lines.push
+  array.each_line(1) {|line| printed_lines.push(batch_badge_creator : assign_rooms)}
+  puts printed_lines
+  return printed_lines
+end
   
   
   

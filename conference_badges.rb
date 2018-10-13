@@ -8,4 +8,6 @@ def batch_badge_creator(array)
   return new_badge
 end
 
-def assign_rooms
+def assign_rooms(array)
+  rooms = []
+  array.each_with_index {

@@ -22,7 +22,7 @@ def printer(array)
   assign_rooms(array).each {|line| puts line}
 end
 
-printer
+printer(array)
 
   
  

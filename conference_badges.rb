@@ -17,12 +17,10 @@ def assign_rooms(array)
   return rooms
 end
 
-def printer(array)
-  printed_lines = []
-  array.each_line(1) {|line| printed_lines.push(batch_badge_creator assign_rooms)}
-  puts printed_lines
-  return printed_lines
+def printer
+  batch_badge_creator.each {|line| puts "#{new_badge}"
 end
+ 
   
   
   

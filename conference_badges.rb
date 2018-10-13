@@ -19,7 +19,7 @@ end
 
 def printer(array)
   batch_badge_creator(array).each {|line| puts "#{new_badge}"}
-  assign_rooms.(array)each {|line| puts "#{rooms}"}
+  assign_rooms.(array).each {|line| puts "#{rooms}"}
 end
  
   
